@@ -35,3 +35,8 @@ MANIFEST
 # Environment variables
 .env
 .env.local
+venv/
+.venv/
+*.log
+.pytest_cache/
+.mypy_cache/
