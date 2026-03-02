@@ -32,6 +32,15 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# Korean documents (public repo — no Korean content)
+research_framing.md
+research_background.md
+ua_value_deep_analysis.md
+eda_findings_summary.md
+
+# MCP config (local)
+.mcp.json
+
 # Environment variables
 .env
 .env.local

@@ -1,4 +1,4 @@
-# Not So Cold: How Ad Journeys Warm Up New User Personalization
+
 
 ## Data
 
@@ -73,4 +73,4 @@ The notebook generates three visualizations:
 
 ---
 
-*Last updated: 2026-02-17
+*Last updated: 2025-02-17*
