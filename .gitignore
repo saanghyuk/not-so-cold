@@ -33,7 +33,7 @@ share/python-wheels/
 MANIFEST
 
 # Korean documents (public repo — no Korean content)
-research_framing.md
+research_framing_kor.md
 research_background.md
 ua_value_deep_analysis.md
 eda_findings_summary.md

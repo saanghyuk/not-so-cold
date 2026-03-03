@@ -2,10 +2,6 @@
 
 ## Research Framing
 
-> **Updated**: 2026-03-02
->
-> Author: Noel Son (Data Scientist, AB180 Inc.), Roi Nam (CEO, AB180 Inc.)
-
 ---
 
 ## The Story in 30 Seconds
