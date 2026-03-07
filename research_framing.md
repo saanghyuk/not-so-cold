@@ -278,7 +278,7 @@ Search ad (SA) users actively searched for a brand name or product name and clic
 
 SA→DA (search then retargeting) and DA→SA (ad then search) **both experienced SA and DA**, but the order produces a **2.8pp difference** in purchase rate (21.7% vs 18.9%). Users who first showed intent through search and then reconfirmed via display ads have higher purchase rates than those who first saw an ad and later searched. Repeated DA (display only, multiple exposures) shows the lowest purchase rate at 7.2% and highest churn at 55.4% — users exposed to ads repeatedly without search have weak install intent.
 
-![Distribution of first-hour app activity by channel](fig_channel_activity_dist.png)
+![Distribution of first-hour app activity by channel](figures/fig_channel_activity_dist.png)
 
 > The distribution above compares per-user first-hour core event count (core_engagement) by channel. DA (orange) is most concentrated near 0 (zero rate: DA=25.1%, SA=19.1%), while SA (blue) has the longest right tail. Even after the same 1 hour, **the amount of in-app data accumulated differs by channel** — this is why a static rule of "transitioning all users at the same time with the same weight" fails.
 

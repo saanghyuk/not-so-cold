@@ -60,8 +60,8 @@ ax.annotate('SA users: fewer zeros,\nlonger right tail',
             xy=(12, 0.02), fontsize=10, style='italic', color='#555555')
 
 plt.tight_layout()
-plt.savefig('fig_channel_activity_dist.png', dpi=150, bbox_inches='tight')
-print("\nSaved: fig_channel_activity_dist.png")
+plt.savefig('figures/fig_channel_activity_dist.png', dpi=150, bbox_inches='tight')
+print("\nSaved: figures/fig_channel_activity_dist.png")
 
 # --- Violin plot (better for showing shape) ---
 fig2, ax2 = plt.subplots(figsize=(8, 6))
@@ -98,7 +98,7 @@ ax2.legend(fontsize=10)
 ax2.grid(True, alpha=0.2, axis='y')
 
 plt.tight_layout()
-plt.savefig('fig_channel_activity_violin.png', dpi=150, bbox_inches='tight')
-print("Saved: fig_channel_activity_violin.png")
+plt.savefig('figures/fig_channel_activity_violin.png', dpi=150, bbox_inches='tight')
+print("Saved: figures/fig_channel_activity_violin.png")
 
 print("\n=== DONE ===")

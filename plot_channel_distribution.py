@@ -66,8 +66,8 @@ for i, (ch_label, ch_key, color) in enumerate(zip(channels, channel_keys, colors
 
 fig.suptitle('Distribution of First-Hour Core Engagement by Channel', fontsize=15, fontweight='bold', y=1.02)
 plt.tight_layout()
-plt.savefig('fig_channel_core_engagement_dist.png', dpi=150, bbox_inches='tight')
-print("\nSaved: fig_channel_core_engagement_dist.png")
+plt.savefig('figures/fig_channel_core_engagement_dist.png', dpi=150, bbox_inches='tight')
+print("\nSaved: figures/fig_channel_core_engagement_dist.png")
 
 # --- Plot 2: Box plot comparison ---
 fig2, ax2 = plt.subplots(figsize=(8, 6))
@@ -96,8 +96,8 @@ ax2.set_ylabel('Core Events (core_engagement)', fontsize=12)
 ax2.set_title('First-Hour Core Engagement by Channel (Outliers Excluded)', fontsize=14, fontweight='bold')
 ax2.legend(fontsize=10)
 plt.tight_layout()
-plt.savefig('fig_channel_core_engagement_box.png', dpi=150, bbox_inches='tight')
-print("Saved: fig_channel_core_engagement_box.png")
+plt.savefig('figures/fig_channel_core_engagement_box.png', dpi=150, bbox_inches='tight')
+print("Saved: figures/fig_channel_core_engagement_box.png")
 
 # --- Plot 3: CDF comparison (on same axes) ---
 fig3, ax3 = plt.subplots(figsize=(10, 6))
@@ -122,7 +122,7 @@ ax3.axhline(0.5, color='gray', linestyle=':', alpha=0.5)
 ax3.text(48, 0.51, '50%', fontsize=9, color='gray')
 
 plt.tight_layout()
-plt.savefig('fig_channel_core_engagement_cdf.png', dpi=150, bbox_inches='tight')
-print("Saved: fig_channel_core_engagement_cdf.png")
+plt.savefig('figures/fig_channel_core_engagement_cdf.png', dpi=150, bbox_inches='tight')
+print("Saved: figures/fig_channel_core_engagement_cdf.png")
 
 print("\n=== DONE ===")
