@@ -32,11 +32,24 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# Korean documents (public repo — no Korean content)
+# Internal documents (not for public repo)
 research_framing_kor.md
+research_framing_kor.pdf
 research_background.md
 ua_value_deep_analysis.md
 eda_findings_summary.md
+creative_analysis_findings.md
+creative_analysis_findings.pdf
+data_request_v2_kor.md
+data_request_v2_kor.pdf
+data_wishlist.md
+sample_data_v2.md
+
+# PDFs with non-English filenames
+pLTV*.pdf
+
+# Large data files
+*.parquet
 
 # MCP config (local)
 .mcp.json
